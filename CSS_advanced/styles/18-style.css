@@ -44,14 +44,14 @@ html {
     --nav-item-link-hover: var(--color-primary);
 }
 
-navbar-menu {
+.nav {
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
 }
 
-navbar-menu .nav-item {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -60,12 +60,12 @@ navbar-menu .nav-item {
     margin: var(--nav-item-margin);
 }
 
-navbar-menu .nav-link {
+.nav .nav-link {
     display: block;
     padding: calc(0.5 * var(--root-element)) calc(1 * var(--root-element));
 }
 
-navbar-menu .nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
 
