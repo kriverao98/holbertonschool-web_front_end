@@ -138,6 +138,7 @@ ul.row {
     text-transform: var(--section-tagline-transform);
     font-weight: font var(--font-weight-bold);
     color: var(--section-title-color);
+    margin: var(--section-tagline-margin);
 }
 .container {
     width: 960px;
