@@ -37,7 +37,7 @@ a {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
-    font-weight: font var(--font-weight-bold);
+    font-weight: var(--font-weight-bold);
 }
 .visually-hidden {
     display: none;
