@@ -44,7 +44,7 @@ html {
     --nav-item-link-hover: var(--color-primary);
 }
 
-navbar-menu .nav {
+navbar-menu {
     margin: 0;
     padding: 0;
     list-style: none;
