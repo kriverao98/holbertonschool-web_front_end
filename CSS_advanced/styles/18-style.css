@@ -1,15 +1,13 @@
 @import 'styles/normalize.css';
 
-* {
-    box-sizing: border-box;
-}
-
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
+    box-sizing: border-box;
 }
+
 :root {
-    --color-primary:#d73953;
+    --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
@@ -52,6 +50,7 @@ nav {
     list-style: none;
     text-align: center;
 }
+
 nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
@@ -60,6 +59,7 @@ nav .nav-item {
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
+
 nav .nav-link {
     display: block;
     padding: calc(0.5 * var(--root-element)) calc(1 * var(--root-element));
@@ -71,16 +71,9 @@ nav .nav-link:hover {
 
 body, a {
     color: var(--text-color);
-}
-body {
-    font-family: var(--font-family-base);
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-regular);
-    min-height: var(--line-height-base);
-}
-a[href]{
     text-decoration: none;
 }
+
 a[href]:visited {
     font-style: italic;
 }
@@ -101,44 +94,47 @@ h1, h2, h3, h4, h5, h6 {
 .visually-hidden {
     display: none;
 }
+
 .section {
     padding: var(--section-padding);
 }
+
 .section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
 }
+
 .section-body {
-    padding: var(--section-body-padding)
+    padding: var(--section-body-padding);
 }
+
 .section-footer {
     padding: var(--section-footer-padding);
     text-align: var(--section-footer-align);
 }
+
 .footer {
     padding: var(--footer-padding);
 }
-.card-category, .section-tagline {
+
+.card-category,
+.section-tagline {
     color: var(--color-primary);
 }
+
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
-    
 }
-.section-tagline {
-    font-family: var(--font-family-title);
-    text-transform: var(--section-tagline-transform);
-    font-weight: var(--font-weight-bold);
-    color: var(--section-title-color);
-}
+
 .container {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
+
 .navbar-menu {
     float: right;
 }
